@@ -15,7 +15,8 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Logo</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+      	<li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -24,12 +25,115 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-	<section class="page-header">
-  		<h1 class="project-name">First Project</h1>
-  		<h2 class="project-tagline">First Project is a great project.</h2>
-  
-    	<a href="https://github.com/SriramS32" class="btn">View on GitHub</a>
-    </section>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Home</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Sriram Somasundaram</h5>
+        </div>
+        <div class="row center">
+          <a href="http://github.com/SriramS32" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Github</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="StarryScream.png" alt="Starry Scream img"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Transfer Learning</h5>
+
+            <p class="light">Sample image used in MNIST dataset for transfer learning</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">Reverse Neural Network</h5>
+
+            <p class="light">Synthesis of Starry Night and the Scream by Reverse Neural Net</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="ClassicCalculations.png" alt="Classic Calculations img"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Reverse Neural Network</h4>
+          <h5>March 2015 - August 2015</h5>
+          <h6>Summary</h6>
+          <p class="left-align light">The Reverse Neural Network is a network that can return back inputs. In the example of computer vision, where inputs represent pixels and outputs are categorizations of pictures and scenes, the reverse neural network can <strong>return back whole images</strong> based on the selected categorization. The concept involves training inputs rather than training weights and is coded in Java from scratch.</p>
+          <h6>Motivation/ Thought Process</h6>
+          <p class="left-align light">The reverse neural network project was a result of my interest and progression in vanilla neural networks. I built a multilayer perceptron with a logistic activation function and back propagation in Java from scratch and initially formatted the network to accept binaries, grayscale images, and then color images. I was thinking that it would be really cool if I could implement some sort of creativity into the network because I wanted to think past neural nets as a universal function approximator. To be honest, I really just wanted to create cool images. Retrospectively, I think I need to use that sort of driving motivation and thinking to solve problems and implement more psychological and neurological concepts as computational structures and algorithms.</p>
+          <img src="network_nodes.png">
+          <p>where f(x) is the activation function, O is output activation, h is hidden activation, w is weight, and a is input. K is number of input node, j is #hidden node, and i is #output node.
+
+          I tried to think of ways to achieve a perfect solution and somehow calculate the inputs from the weights. With the simplest base case of 1 input node, 1 hidden node, and 1 output node, it is possible to back-calculate the inputs given the weights and desired outputs by using the inverse of the activation function:
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="InputsLoss.png" alt="Inputs Loss img"></div>
+  </div>
+
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sri Bio</h5>
+          <p class="grey-text text-lighten-4">Hi, I'm a rising junior currently pursuing a B.S. in Computer Science at the University of Southern California. I have become increasingly interested in the brain and believe that there are many biological and computational facets left to explore. I believe in integrating our psychological and neurological understandings with computational capabilities and hope to learn and advance machine learning research and applications. </p>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Sriram <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
